@@ -1,0 +1,462 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		http://demos.artbees.net/jupiter5
+Description:    Child theme for the Jupiter theme 
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Text Domain: mk_framework
+Domain Path: /languages/
+*/
+
+
+
+/*
+Sample : remove the comment and start adding your own custom CSS rules.
+
+body {
+	background-color:#fff;
+}
+
+*/
+
+.mk-image-container {
+    float: left;
+    margin-left: -15px;
+}
+
+.mk-text-block h1 {
+    margin-top: 193px;
+}
+
+.about_us_banner {
+    height: 436px !important;
+    margin-bottom: 25px !important;
+    margin-left: 0 !important;
+}
+
+.about_us_banner h1 span {
+    text-shadow: 1px 1px 1px #000000;
+}
+
+blockquote {
+    background-color: transparent !important;
+}
+
+blockquote:before {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    transform: rotateZ(180deg) !important;
+    left: 12px !important;
+    top: 12px !important;
+    width: 48px !important;
+    height: 42px !important;
+}
+
+.header-grid {
+    padding-left: 35px;
+}
+
+.ult_modal-header {
+    display: none;
+}
+
+.ult_modal-content {
+    border-radius: 8px !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.ult_modal-content a {
+    font-size: 17px !important;
+}
+
+.font-icon {
+    border: none !important;
+}
+
+.news-title h1 {
+    font-size: 33px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    margin: 20px 0 0 15px !important;
+}
+
+.mk-blog-thumbnail-item .featured-image {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 350px !important;
+}
+
+.mk-blog-thumbnail-item.content-align-right .item-wrapper {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-top: 30px !important;
+}
+
+.blog-post-list {
+    margin-top: 36px !important;
+}
+
+.mk-blog-author, .mk-categories {
+    display: none !important;
+}
+
+.mk-blog-meta-wrapper time {
+    color: #102963 !important;
+    font-size: 11px !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+}
+
+.mk-teader-button .mk-button-container a {
+    background: #102963!important;
+    color: white !important;
+}
+
+.mk-blog-thumbnail-item .item-wrapper h3 {
+    margin: 12px 0 !important;
+}
+
+.mk-page-title-box-title {
+    padding-left: 17px;
+}
+
+.master-holder h5 {
+    font-size: 14px !important;
+    color: #7b7b7b !important;
+    font-weight: 400 !important;
+    text-transform: none !important;
+}
+
+.menu-hover-style-5 .main-navigation-ul>li.current-menu-ancestor>a.menu-item-link:after, .menu-hover-style-5 .main-navigation-ul>li.current-menu-item>a.menu-item-link:after, .menu-hover-style-5 .main-navigation-ul>li.menu-item:hover>a.menu-item-link::after {
+    opacity: 0 !important;
+}
+
+#menu-main-menu li:nth-child(1):hover > a, #menu-main-menu li:nth-child(2):hover > a {
+    color: #f97352 !important;
+}
+/* #menu-main-menu li:nth-child(1):hover > a:after, #menu-main-menu li:nth-child(2):hover > a:after {
+    background: none !important;
+} */
+
+#menu-main-menu li:nth-child(3):hover > a, #menu-main-menu li:nth-child(4):hover > a {
+    color: #B70D18!important;
+}
+
+#menu-main-menu li:nth-child(3):hover > a:after, #menu-main-menu li:nth-child(4):hover > a:after {
+    background-color: #B70D18!important;
+}
+
+#menu-main-menu li:nth-child(5):hover > a {
+    color: #102963!important;
+}
+#menu-main-menu li:nth-child(5):hover > a:after {
+    background-color: #102963!important;
+}
+
+#menu-main-menu li:nth-child(6):hover > a {
+    color: #faa61a!important;
+}
+#menu-main-menu li:nth-child(6):hover > a:after {
+    background-color: #faa61a!important;
+}
+
+#menu-main-menu li:nth-child(7):hover > a {
+    color: #102963!important;
+}
+#menu-main-menu li:nth-child(7):hover > a:after {
+    background-color: #102963!important;
+}
+
+#menu-main-menu li:nth-child(8):hover > a {
+    color: #f97352 !important;
+}
+#menu-main-menu li:nth-child(8):hover > a:after {
+    background-color: #f97352!important;
+}
+
+#menu-main-menu .sub-menu li:hover a {
+    color: white !important;
+}
+
+#menu-main-menu .current-menu-item a:after {
+    background-color: #f97352;
+    color: #fff;
+    opacity: 1 !important;
+}
+
+body.page-id-8 h2,
+body.page-id-8 h3,
+body.page-id-8 h4,
+body.page-id-8 h5,
+body.page-id-8 h6,
+body.page-id-8 strong,
+body.parent-pageid-8 h2,
+body.parent-pageid-8 h3,
+body.parent-pageid-8 h4,
+body.parent-pageid-8 h5,
+body.parent-pageid-8 h6,
+body.parent-pageid-8 strong {
+    color: #f97352 !important;
+}
+body.page-id-587 blockquote:before, body.page-id-8 blockquote:before {
+    background-image: url(../../uploads/2015/05/Quote_l1.png) !important;
+}
+
+body.page-id-10 h2,
+body.page-id-10 h3,
+body.page-id-10 h4,
+body.page-id-10 h5,
+body.page-id-10 h6,
+body.page-id-10 strong,
+body.parent-pageid-10 h2,
+body.parent-pageid-10 h3,
+body.parent-pageid-10 h4,
+body.parent-pageid-10 h5,
+body.parent-pageid-10 h6,
+body.parent-pageid-10 strong,
+body.page-id-754 h2,
+body.page-id-754 h3,
+body.page-id-754 h4,
+body.page-id-754 h5,
+body.page-id-754 h6,
+body.page-id-754 strong {
+    color: #B70D18!important;
+}
+body.page-id-10 blockquote:before, body.page-id-754 blockquote:before {
+    background-image: url(../../../site/abuk-v2/wp-content/uploads/2015/05/Quote-Red-Copy.html) !important;
+}
+
+body.page-id-12 h2,
+body.page-id-12 h3,
+body.page-id-12 h4,
+body.page-id-12 h5,
+body.page-id-12 h6,
+body.page-id-12 strong,
+body.parent-pageid-12 h2,
+body.parent-pageid-12 h3,
+body.parent-pageid-12 h4,
+body.parent-pageid-12 h5,
+body.parent-pageid-12 h6,
+body.parent-pageid-12 strong,
+body.single-post h2,
+body.single-post h3,
+body.single-post h4,
+body.single-post h5,
+body.single-post h6,
+body.single-post strong,
+body.page-id-281 h2,
+body.page-id-281 h3,
+body.page-id-281 h4,
+body.page-id-281 h5,
+body.page-id-281 h6,
+body.page-id-281 strong,
+body.page-id-281 h2 a,
+body.page-id-281 h3 a,
+body.page-id-281 h4 a,
+body.page-id-281 h5 a,
+body.page-id-281 h6 a,
+body.page-id-281 strong a {
+    color: #102963!important;
+}
+body.page-id-12 blockquote:before {
+    background-image: url(../../../site/abuk-v2/wp-content/uploads/2015/04/Quote-blue-Copy-1.html) !important;
+}
+
+body.page-id-14 h2,
+body.page-id-14 h3,
+body.page-id-14 h4,
+body.page-id-14 h5,
+body.page-id-14 h6,
+body.page-id-14 strong,
+body.parent-pageid-14 h2,
+body.parent-pageid-14 h3,
+body.parent-pageid-14 h4,
+body.parent-pageid-14 h5,
+body.parent-pageid-14 h6,
+body.parent-pageid-14 strong {
+    color: #faa61a!important;
+}
+body.page-id-14 blockquote:before {
+    background-image: url(../../../site/abuk-v2/wp-content/uploads/2015/04/Quote_yellow_r-1.html) !important;
+}
+
+body.page-id-62 .mk-text-block h3 {
+    font-size: 24px!important;
+    color: #7b7b7b!important;
+}
+
+body.page-id-62 .mk-text-block h5 {
+    color: #7b7b7b!important;
+}
+
+/* body.page-id-62 .vc_col-sm-4.wpb_column {
+    padding: 0 !important;
+} */
+
+body.page-id-62 .mk-image-container {
+    float: none;
+    padding: 0 15px;
+}
+
+body.page-id-217 .mk-image-container {
+    /* float: right !important; */
+    width: 520px;
+}
+
+body.page-id-217 .mk-image-7 .mk-image-container,
+body.page-id-217 .mk-image-9 .mk-image-container,
+body.page-id-217 .mk-image-11 .mk-image-container {
+    float: right;
+}
+
+body.page-id-217 .mk-image-8 .mk-image-container {
+    float: left;
+}
+
+body.page-id-66 .mk-image-container {
+    width: 100%;
+    text-align: center;
+}
+
+body.page-id-66 .mk-image-container img {
+    height: 100px;
+    width: auto;
+}
+
+body.page-id-66 .mk-image-20 .mk-image-container img, body.page-id-66 .mk-image-28 .mk-image-container img {
+    height: 72.97px;
+}
+
+body.page-id-66 .mk-text-block {
+    clear: both;
+}
+
+body.page-id-224 .mk-image-14 .mk-image-container, body.page-id-244 .mk-image-13 .mk-image-container, body.page-id-263 .mk-image-15 .mk-image-container {
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+/*
+NEW CSS 
+*/
+.single-post .intro-left{ background-color: #122b61; }
+.single-post .page-title {
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 768px) {
+#text-block-4{
+    position: absolute;
+    text-align: center !important;
+    width: 100%;
+    left: 0;
+    padding: 0px 10px;
+}
+#text-block-4 h1{
+    font-size: 25px;
+}
+body.page-id-217 .mk-image-container{
+   max-width:100% !important;
+   width:100% !important;
+}
+.mk-blog-thumbnail-item .featured-image{
+   height:auto !important;
+}
+}
+body.page-id-217 .csr-bottom-img .mk-image-container{
+   max-width:100% !important;
+   width:100% !important;
+}
+.table-responsive{
+   max-width:100%;
+   overflow:auto;
+}
+.master-holder h2 {
+    font-size: 23px !important;
+}
+body.page-id-252 .mk-toggle-title i:before {
+    content: "";
+    background-image: url(../../uploads/2018/03/chevrons-blue.png);
+    display: inline-block;
+    width: 27px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 2px;
+}
+body.page-id-252 .mk-toggle-title svg {
+    display: none;
+}
+body.page-id-238 .mk-toggle-title i:before {
+    content: "";
+    background-image: url(../../uploads/2018/03/chevrons-red.png);
+    display: inline-block;
+    width: 27px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 2px;
+}
+body.page-id-238 .mk-toggle-title svg {
+    display: none;
+}
+.tablepress tbody td.column-2, .tablepress tbody td.column-3 {
+    background-color: #D5DCE4;
+}
+.tablepress tbody td.column-4, .tablepress tbody td.column-5, .tablepress tbody td.column-6 {
+    background-color: #FCE4D4;
+}
+.tablepress tbody td {
+    vertical-align: middle;
+    border-color: #fff;
+    border-right: 1px solid #fff;
+    background: #f5f5f5;
+}
+.tablepress tbody tr.row-1 td.column-2, .tablepress tbody tr.row-1 td.column-4 {
+    background: #f5f5f5;
+}
+.tablepress tbody tr:first-child td {
+    border-top: 0;
+}
+.tablepress .odd td {
+    background-color: #f5f5f5;
+}
+.tablepress .even td{background: #f5f5f5;}
+table.tablepress thead th {
+    vertical-align: middle;
+    border-color: #fff;
+    border-right: 1px solid #fff;
+    background: #f5f5f5;
+}
+h2.tablepress-table-name {
+    background: #C62218;
+}
+
+h2.tablepress-table-name {
+    margin-bottom: 0;
+    background: #c62218;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.1em;
+    padding: 10px;
+    text-align: left;
+	font-size: 17px !important;
+}
+h2.tablepress-table-name {
+    font-size: 32px;
+    color: #7b7b7b;
+    font-weight: bold;
+    text-transform: none;
+}
+.tablepress tbody td.column-1 {
+    text-align: center;
+    color: #063778;
+}
+body.page-id-1232 h2.tablepress-table-name {
+    background: #05387A;
+}
